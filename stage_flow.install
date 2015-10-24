@@ -38,7 +38,7 @@ function stage_flow_schema() {
       // Additional properties are just things that are common to all
       // entities and don't require field storage.
       'label' => array(
-        'description' => 'A description of the item',
+        'description' => 'Stage flow name of the entity',
         'type' => 'varchar',
         'length' => 255,
         'not null' => TRUE,
