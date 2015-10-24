@@ -1,0 +1,12 @@
+name = State Flow Entities
+description = State Flow Entities required to set up state flow state.
+core = 7.x-3.x.dev
+package = "State Machine"
+dependencies[] = field
+files[] = state_flow_admin.test
+;configure = admin/structure/state_flow_entity/manage
+
+; Information added by Drupal.org packaging script on 2014-07-10
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "state_machine"
